@@ -3,7 +3,19 @@ body{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 6%, rgba(197,133,205,1) 100%);
 }
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    align-items: center;
+}
 
+.fb-page {
+    text-decoration: none;
+    font-size: 92px;
+    display: flex;
+    justify-content: center;
+    color: #1a5af5;
+    align-items: center;
+}
 button.d-grid.gap-2.col-6.mx-auto.btn.btn-success {
     background-color: #c585cd;
 }
