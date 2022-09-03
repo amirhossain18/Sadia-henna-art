@@ -247,7 +247,7 @@ margin-bottom: 20px;
         --bs-gutter-y: 0;
         width: 100%;
         padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * 2.0);
+        padding-left: calc(var(--bs-gutter-x) * 1);
         margin-right: auto;
         margin-left: auto;
     }
